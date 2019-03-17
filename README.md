@@ -6,4 +6,5 @@ Tesseract OCR internally applies [Otsu binarization method](https://ieeexplore.i
 | :------------- | :----------: | 
 |  Cell Contents | More Stuff   | 
 | You Can Also   | Put Pipes In |
+| You Can Also   | Put Pipes In |
 
