@@ -44,7 +44,7 @@ def adaptative_thresholding(path, threshold):
     # Integral image size
     nrows, ncols = imageIntegral.shape
     
-    # Memory allocation for mean image
+    # Memory allocation for cumulative region image
     result = np.zeros((orignrows, origncols))
     
     # Image cumulative pixels in windows size calculation
