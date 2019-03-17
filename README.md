@@ -38,6 +38,9 @@ The script saves the black and white image as "visausa_bin.jpg" in the current d
 You might need to configure the threshold depending on the image size and background color.
 For example the following image:
 
+<p align="center">
+  <img src="images/hh.jpg" width="324" width="200">
+</p>
 
 
 
