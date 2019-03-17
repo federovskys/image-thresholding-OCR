@@ -74,6 +74,9 @@ if __name__ == '__main__':
     parser.add_argument("-t", "--threshold", dest='threshold', type=float, default=25, help="binarization threshold")
     
     args = parser.parse_args()
+
+    if not os.path.exists(args.input_path):
+        raise IOError('input file does not exit')
     
     if not  0 < args.threshold < 100:
         raise IOError('threshold must be between 0 and 100')
