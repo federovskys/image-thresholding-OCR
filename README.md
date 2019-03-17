@@ -26,14 +26,14 @@ pip install cv2
 pip install numpy
 ```
 
-Let's binarize the upper post image using the script. Type on shell in proyect directory:
+Let's binarize the upper post image using the script. Type on shell in project directory:
 
 ```bash
 python adaptativeThreshold.py -i images/visausa.jpg
 ```
 The script saves the black and white image as "visausa_bin.jpg" in the current directory.
 
-#### Configuring the threshold
+## Configuring the threshold
 
 You might need to configure the threshold depending on the image size and background color.
 For example the following image:
@@ -41,6 +41,14 @@ For example the following image:
 <p align="center">
   <img src="images/hh.jpg" width="324" width="170">
 </p>
+
+His optimal threshold due to high resolution is 50. Let's binarize the image using 50 as threshold. Type on bash in project directory:
+
+```bash
+python adaptativeThreshold.py -i images/hh.jpg -t 50
+```
+Getting the output image hh_bin.jpg on current directory.
+
 
 
 
