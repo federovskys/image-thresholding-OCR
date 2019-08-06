@@ -24,7 +24,7 @@ Make sure python3 and pip is installed. Then, install cv2 and numpy.
 ```bash
 #install opencv-python
 pip install cv2
-#install PyWavelets
+#install numpy
 pip install numpy
 ```
 
